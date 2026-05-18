@@ -30,6 +30,7 @@ header {
     padding-top: 50px;
     padding-bottom: 76px;
     width: 100%;
+    max-width: 800px;
     box-shadow: 5px 5px 15px black;
 }
 header > h1 {
@@ -118,4 +119,6 @@ footer {
     color: #ffffff;
     padding: 4px;
     margin-top: 9px;
+    width: 100%;
+    max-width: 800px;
 }
