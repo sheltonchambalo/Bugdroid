@@ -22,13 +22,12 @@
     margin: 0px;
 }
 header {
+    display: block;
     text-align: center;
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
-    height: 100px;
+    height: 100%;
     color: #ffffff;
     font-family: var(--fontedestaque);
-    padding-top: 50px;
-    padding-bottom: 76px;
     width: 100%;
     box-shadow: 5px 5px 15px black;
 }
@@ -42,7 +41,7 @@ header p {
 }
 nav {
     text-align: left;
-    height: 70px;
+    height: 25px;
     font-family: var(--fontepadrão);
 }
 nav > a{
