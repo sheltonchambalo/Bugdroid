@@ -28,7 +28,7 @@ header {
     height: 100%;
     color: #ffffff;
     font-family: var(--fontedestaque);
-    width: 100%;
+    width: 100vw;
     box-shadow: 5px 5px 15px black;
 }
 header > h1 {
@@ -84,6 +84,7 @@ section > h1, h2 {
 h2 {
     background-image: linear-gradient(to right, var(--cor0), #ffffff);
     margin: 10px 0px;
+    
 }
 aside {
     border-radius: 10px;
@@ -118,5 +119,9 @@ footer {
     color: #ffffff;
     padding: 4px;
     margin-top: 9px;
-    width: 99.4%;
+    width: 100vw;
+}
+footer > a {
+    color: #ffffff;
+    text-decoration: none;
 }
